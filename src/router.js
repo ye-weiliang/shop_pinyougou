@@ -21,7 +21,6 @@ const router = new Router({
       name: 'login',
       component: Login
     }
-
   ]
 })
 // to 到哪去
@@ -36,4 +35,6 @@ router.beforeEach((to, from, next) => {
     next('/login')
   }
 })
+
+console.log(1)
 export default router
